@@ -1,0 +1,47 @@
+@import "bootstrap.less";
+
+
+// Splash page elements
+// -------------------------
+header {
+	padding-top:40px;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+#blurb {
+	padding-top:20px;
+	text-align: center;
+	p {
+		font-family: "Roboto", sans-serif;
+		font-size:25px;
+		line-height: 30px;
+		font-weight: 300;
+		letter-spacing: 2px
+	}
+}
+
+.signup {
+	span {
+		background: @grayLight;
+	}
+}
+
+article {
+	height:600px;
+	display:block;
+}
+
+// Modifications to bootstrap classes
+// -------------------------
+.navbar .nav > li > a {
+	@navHorizontalPadding: 30px;
+	padding-left: @navHorizontalPadding;
+	padding-right: @navHorizontalPadding;
+}
+
+.brand {
+	font-weight: 700;
+}
