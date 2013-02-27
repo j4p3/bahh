@@ -3509,8 +3509,13 @@ header {
   font-weight: 300;
   letter-spacing: 2px;
 }
-.signup span {
-  background: #999999;
+#blurb form .signup {
+  position: relative;
+  top: 500px;
+  z-index: 1;
+}
+#blurb form .signup input {
+  height: 30px;
 }
 article {
   height: 600px;
