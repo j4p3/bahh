@@ -126,9 +126,6 @@
     .monospace() {
       font-family: @monoFontFamily;
     }
-    .banner() {
-      font-family: @bannerFontFamily;
-    }
   }
   .shorthand(@size: @baseFontSize, @weight: normal, @lineHeight: @baseLineHeight) {
     font-size: @size;
@@ -145,10 +142,6 @@
   }
   .monospace(@size: @baseFontSize, @weight: normal, @lineHeight: @baseLineHeight) {
     #font > #family > .monospace;
-    #font > .shorthand(@size, @weight, @lineHeight);
-  }
-  .banner(@size: @baseFontSize, @weight: normal, @lineHeight: @baseLineHeight) {
-    #font > #family > .banner;
     #font > .shorthand(@size, @weight, @lineHeight);
   }
 }
